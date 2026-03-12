@@ -1,1 +1,1 @@
-# MIE350 Front-End
+# Group 13: Personal Project & Career Management System (Frontend)
