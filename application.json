@@ -30,6 +30,10 @@
     {
       "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Profile",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
