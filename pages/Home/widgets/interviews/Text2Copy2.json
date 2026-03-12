@@ -36,19 +36,19 @@
   "originalBottomRow": 9,
   "originalTopRow": 4,
   "overflow": "NONE",
-  "parentId": "nnw2maqt94",
+  "parentId": "sid3r6fmr8",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "{{job_app_stats.getStats().total}} jobs",
+  "text": "{{job_app_stats.getStats().interview}} jobs",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "9b340wstpm",
-  "widgetName": "Text2"
+  "widgetId": "wsv6go3ydh",
+  "widgetName": "Text2Copy2"
 }
