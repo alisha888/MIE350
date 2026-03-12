@@ -1,6 +1,6 @@
 {
   "gitSyncId": "69b2ed8c4534966f8c772077_7e021c48-81a8-4d59-9113-09c92fdf0cd5",
-  "id": "Home_spring_back_end",
+  "id": "Home_read_job_applications",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -33,7 +33,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "spring_back_end",
+    "name": "read_job_applications",
     "pageId": "Home",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
