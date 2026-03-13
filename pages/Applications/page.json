@@ -1,0 +1,19 @@
+{
+  "name": "Applications",
+  "slug": "applications",
+  "unpublishedPage": {
+    "name": "Applications",
+    "slug": "applications",
+    "layouts": [
+      {
+        "viewMode": false,
+        "layoutOnLoadActions": [
+          [
+            { "name": "getApp" },
+            { "name": "getProjects" }
+          ]
+        ]
+      }
+    ]
+  }
+}
