@@ -34,10 +34,6 @@
     {
       "id": "Profile",
       "isDefault": false
-    },
-    {
-      "id": "Application",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
