@@ -1,0 +1,9 @@
+{
+  "company": {{ newCompany.text }},
+  "role": {{ newRole.text }},
+  "dates": {{ newDates.text }},
+  "status": {{ newStatus.selectedOptionValue }},
+  "notes": {{ newNotes.text }},
+  "userId": {{ appsmith.store.userId }},
+  "projectIds": []
+}

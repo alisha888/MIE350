@@ -37,6 +37,9 @@
     },
     {
       "key": "groupButtons.groupButtonsaeqguolxg.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbw9mpyi3qf.onClick"
     }
   ],
   "groupButtons": {
@@ -50,7 +53,7 @@
       "isVisible": true,
       "label": "Dashboard",
       "menuItems": {},
-      "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -78,6 +81,7 @@
       "isVisible": true,
       "label": "Applications",
       "menuItems": {},
+      "onClick": "{{navigateTo('Application', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "iiscfdy6up"
     },

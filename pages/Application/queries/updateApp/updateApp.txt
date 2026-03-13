@@ -1,0 +1,9 @@
+{
+  "company": {{ inpCompany.text }},
+  "role": {{ inpRole.text }},
+  "dates": {{ inpDates.text }},
+  "status": {{ selStatus.selectedOptionValue }},
+  "notes": {{ inpNotes.text }},
+  "userId": {{ appsmith.store.userId }},
+  "projectIds": {{ tblApps.selectedRow.projectIds || [] }}
+}

@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "3oomqevw43",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "Status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 39,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 10.96875,
+  "parentId": "4zrs6w2ej9",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 27,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \n\t  \"name\": \"Interested\",\n\t\t\"code\": \"Interested\"\n\t},\n\t{\n    \"name\": \"Applied\",\n    \"code\": \"Applied\"\n  },\n  {\n    \"name\": \"Interview\",\n    \"code\": \"Interview\"\n  },\n\t{\n\t\t\"name\": \"Offer\",\n\t\t\"code\": \"Offer\"\n\t},\n  {\n    \"name\": \"Rejected\",\n    \"code\": \"Rejected\"\n  }\n]",
+  "topRow": 30,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "fylka4mvj7",
+  "widgetName": "newStatus"
+}

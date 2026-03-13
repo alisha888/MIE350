@@ -36,7 +36,7 @@
       "key": "groupButtons.groupButton1.onClick"
     },
     {
-      "key": "groupButtons.groupButtonbw9mpyi3qf.onClick"
+      "key": "groupButtons.groupButtonsaeqguolxg.onClick"
     }
   ],
   "groupButtons": {
@@ -50,7 +50,7 @@
       "isVisible": true,
       "label": "Dashboard",
       "menuItems": {},
-      "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     },
@@ -78,7 +78,6 @@
       "isVisible": true,
       "label": "Applications",
       "menuItems": {},
-      "onClick": "{{navigateTo('Application', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "iiscfdy6up"
     },
@@ -92,6 +91,7 @@
       "isVisible": true,
       "label": "Profile",
       "menuItems": {},
+      "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "s45z0h43k0"
     }
@@ -113,7 +113,7 @@
   "originalBottomRow": 10,
   "originalTopRow": 6,
   "parentColumnSpace": 16.046875,
-  "parentId": "q44x7wqdlf",
+  "parentId": "nntasbiwb4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -128,6 +128,6 @@
   "topRow": 6,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "5lei5mep8y",
+  "widgetId": "57k42l6b4a",
   "widgetName": "nav_bar"
 }
