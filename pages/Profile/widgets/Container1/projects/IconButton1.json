@@ -1,26 +1,26 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 8,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY",
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "buttonColor"
     }
   ],
   "dynamicTriggerPathList": [],
-  "iconName": "chart",
+  "iconName": "projects",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "feyob5l1ky",
-  "leftColumn": 40,
+  "leftColumn": 39,
   "minWidth": 50,
   "mobileBottomRow": 10,
   "mobileLeftColumn": 46,
@@ -30,8 +30,8 @@
   "parentId": "nnw2maqt94",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
-  "topRow": 0,
+  "rightColumn": 63,
+  "topRow": 1,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
   "widgetId": "hyfyqaus26",

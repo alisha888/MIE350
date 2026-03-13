@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -43,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 29,
   "shouldTruncate": false,
-  "text": "{{appsmith.user.name}}'s Job Applications",
+  "text": "Job Applications Overview",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 25,

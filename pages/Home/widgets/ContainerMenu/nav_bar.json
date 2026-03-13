@@ -34,6 +34,9 @@
     },
     {
       "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonsaeqguolxg.onClick"
     }
   ],
   "groupButtons": {
@@ -88,6 +91,7 @@
       "isVisible": true,
       "label": "Profile",
       "menuItems": {},
+      "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": "s45z0h43k0"
     }

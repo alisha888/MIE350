@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 10,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "buttonVariant": "TERTIARY",
   "childStylesheet": {
@@ -81,7 +81,6 @@
     "groupButtonsaeqguolxg": {
       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
       "buttonType": "SIMPLE",
-      "iconAlign": "left",
       "iconName": "user",
       "id": "groupButtonsaeqguolxg",
       "index": 3,
@@ -107,14 +106,14 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 6,
   "orientation": "horizontal",
-  "originalBottomRow": 9,
-  "originalTopRow": 5,
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
   "parentColumnSpace": 16.046875,
   "parentId": "q44x7wqdlf",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 57,
+  "rightColumn": 45,
   "searchTags": [
     "click",
     "submit"
@@ -122,7 +121,7 @@
   "tags": [
     "Buttons"
   ],
-  "topRow": 5,
+  "topRow": 6,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "5lei5mep8y",

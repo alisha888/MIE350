@@ -8,10 +8,10 @@
   "buttonVariant": "PRIMARY",
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
+      "key": "borderRadius"
     },
     {
-      "key": "borderRadius"
+      "key": "buttonColor"
     }
   ],
   "dynamicTriggerPathList": [],

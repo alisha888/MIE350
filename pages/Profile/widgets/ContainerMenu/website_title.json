@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -15,9 +15,6 @@
     },
     {
       "key": "textColor"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -39,8 +36,8 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 1,
-  "originalBottomRow": 5,
-  "originalTopRow": 0,
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 16.046875,
   "parentId": "q44x7wqdlf",
@@ -58,10 +55,10 @@
     "Suggested",
     "Content"
   ],
-  "text": "👤 {{appsmith.user.name}}",
+  "text": "💻 Personal Project & Career Management System",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 0,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

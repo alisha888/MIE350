@@ -1,0 +1,5 @@
+{
+  "firstName": "{{inp_edit_first.text}}",
+  "lastName": "{{inp_edit_last.text}}",
+  "email": "{{Table1.selectedRow.email}}"
+}

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b2ed8c4534966f8c772077_fd591dd8-0e44-424f-b6d1-f545557b6402",
-  "id": "Profile_Api1",
+  "gitSyncId": "69b2ed8c4534966f8c772077_9f778abb-70bd-432f-9cb8-933c9e136baf",
+  "id": "Profile_read_users",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -12,34 +12,17 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [
-        {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
+      "headers": [],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
+      "path": "/users",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
-      "queryParameters": [
-        {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
+      "queryParameters": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -49,9 +32,10 @@
       "name": "spring_back-end",
       "pluginId": "restapi-plugin"
     },
-    "name": "Api1",
+    "dynamicBindingPathList": [],
+    "name": "read_users",
     "pageId": "Profile",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
