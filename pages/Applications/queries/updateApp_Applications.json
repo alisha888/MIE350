@@ -1,0 +1,14 @@
+{
+  "pluginType": "API",
+  "pluginId": "restapi-plugin",
+  "unpublishedAction": {
+    "name": "updateApp",
+    "pageId": "Applications",
+    "actionConfiguration": {
+      "path": "/job-applications/{{tblApps.selectedRow.id}}",
+      "httpMethod": "PUT",
+      "body": "{\n  \"company\": {{ inpCompany.text }},\n  \"role\": {{ inpRole.text }},\n  \"status\": {{ selStatus.selectedOptionValue }},\n  \"userId\": 1,\n  \"projectIds\": {{ MultiSelect1.selectedOptionValues }}\n}\n",
+      "encodeParamsToggle": true
+    }
+  }
+}
