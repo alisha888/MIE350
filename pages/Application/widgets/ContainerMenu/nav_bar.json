@@ -64,7 +64,7 @@
       "isVisible": true,
       "label": "Projects",
       "menuItems": {},
-      "onClick": "{{navigateTo('Students', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Projects', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "widgetId": ""
     },

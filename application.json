@@ -38,6 +38,10 @@
     {
       "id": "Application",
       "isDefault": false
+    },
+    {
+      "id": "Projects",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
