@@ -1,0 +1,16 @@
+{
+  "pluginType": "API",
+  "pluginId": "restapi-plugin",
+  "unpublishedAction": {
+    "name": "getApp",
+    "pageId": "Applications",
+    "actionConfiguration": {
+      "path": "/job-applications",
+      "httpMethod": "GET",
+      "encodeParamsToggle": true,
+      "queryParameters": [],
+      "bodyFormData": []
+    },
+    "executeOnLoad": true
+  }
+}
