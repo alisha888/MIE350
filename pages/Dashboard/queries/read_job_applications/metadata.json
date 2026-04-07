@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b2ed8c4534966f8c772077_9f778abb-70bd-432f-9cb8-933c9e136baf",
-  "id": "Profile_read_users",
+  "gitSyncId": "69b2ed8c4534966f8c772077_7e021c48-81a8-4d59-9113-09c92fdf0cd5",
+  "id": "Dashboard_read_job_applications",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users",
+      "path": "/job-applications",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -33,9 +33,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "read_users",
-    "pageId": "Profile",
-    "runBehaviour": "MANUAL",
+    "name": "read_job_applications",
+    "pageId": "Dashboard",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

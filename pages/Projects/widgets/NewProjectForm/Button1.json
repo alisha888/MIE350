@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 37,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7wxydtxanh",
+  "leftColumn": 46,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{\n  create_project.run(() => {\n    // 1. Refresh the table data once the save is successful\n    Project.run(); \n    \n    // 2. Clear the form so it's ready for the next entry\n    resetWidget(\"ProjectForm\", true); \n    \n    // 3. Provide professional feedback\n    showAlert('Project successfully added to portfolio.', 'success');\n    \n    // 4. Optional: Close the modal if the form is in one\n    closeModal('Modal1'); \n    \n  }, () => {\n    // 5. Handle any server-side errors\n    showAlert('Error: Could not save project. Please check your connection.', 'error');\n  })\n}}",
+  "parentId": "w9se02nsb0",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "text": "Submit",
+  "topRow": 33,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "33kmjwqlnm",
+  "widgetName": "Button1"
+}

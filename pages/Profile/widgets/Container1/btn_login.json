@@ -1,0 +1,57 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vnz6qctz0n",
+  "leftColumn": 22,
+  "minWidth": 120,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 23,
+  "mobileTopRow": 39,
+  "needsErrorInfo": false,
+  "onClick": "{{\n  // 1. Explicitly run the API to get the latest user list\n  GetAllUsers.run(() => {\n    \n    // 2. Once the API succeeds, we can safely access the data\n    const allUsers = GetAllUsers.data;\n    \n    // 3. Match the input email\n    const foundUser = allUsers.find(u => u.email === inp_email.text);\n\n    if (foundUser) {\n      // 4. Store identity and navigate\n      storeValue('userId', foundUser.id);\n      storeValue('userName', foundUser.firstName);\n      \n      showAlert('Login successful. Welcome, ' + foundUser.firstName, 'success');\n      navigateTo('Dashboard');\n    } else {\n      showAlert('Login failed: Email not found.', 'error');\n    }\n    \n  }, () => {\n    // 6. Handle case where the API itself fails (e.g. Backend is down)\n    showAlert('System Error: Could not connect to the server.', 'error');\n  });\n}}",
+  "originalBottomRow": 43,
+  "originalTopRow": 39,
+  "parentColumnSpace": 9.28125,
+  "parentId": "7xozkva0gu",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 38,
+  "text": "Sign In ✔️",
+  "topRow": 17,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qylup5fcrh",
+  "widgetName": "btn_login"
+}

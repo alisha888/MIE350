@@ -15,6 +15,16 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -27,6 +37,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{\n  createApp.run(() => {\n    // CHANGE THIS NAME to match your sidebar exactly!\n    getApp.run(); \n    \n    resetWidget(\"NewAppForm\", true); \n    showAlert('Application successfully recorded.', 'success');\n    closeModal('ModalNewApp'); \n    \n  }, () => {\n    showAlert('System Error: Could not save application.', 'error');\n  })\n}}",
   "originalBottomRow": 58,
   "originalTopRow": 54,
   "parentId": "4zrs6w2ej9",

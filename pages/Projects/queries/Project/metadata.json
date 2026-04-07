@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b2ed8c4534966f8c772077_9f778abb-70bd-432f-9cb8-933c9e136baf",
-  "id": "Profile_read_users",
+  "gitSyncId": "69b2ed8c4534966f8c772077_518020e7-3c89-4dfe-8706-7629d542b3e8",
+  "id": "Projects_Project",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -16,7 +16,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/users",
+      "path": "/projects\n",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -33,9 +33,9 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "read_users",
-    "pageId": "Profile",
-    "runBehaviour": "MANUAL",
+    "name": "Project",
+    "pageId": "Projects",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

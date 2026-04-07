@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b2ed8c4534966f8c772077_737cdc0f-d106-44a4-855e-e840322bda81",
-  "id": "Application_createApp",
+  "gitSyncId": "69b2ed8c4534966f8c772077_fd1208b9-50ab-4515-900a-c5445f8d4303",
+  "id": "Projects_Skills",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,17 +11,17 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"companyId\": {{ Number(newCompany.selectedOptionValue || 1) }},\n  \"role\": \"{{ newRole.text || 'Intern' }}\",\n  \"applicationDate\": \"{{ newDates.formattedDate || '2026-04-07' }}\",\n  \"status\": \"{{ newStatus.selectedOptionValue || 'Applied' }}\",\n  \"notes\": \"{{ newNotes.text || '' }}\",\n  \"userId\": {{ Number(appsmith.store.userId || 1) }},\n  \"projectIds\": []\n}",
+      "body": "",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
         "apiContentType": "application/json"
       },
       "headers": [],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/job-applications",
+      "path": "/skills",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -37,14 +37,10 @@
       "name": "spring_back-end",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "createApp",
-    "pageId": "Application",
-    "runBehaviour": "MANUAL",
+    "dynamicBindingPathList": [],
+    "name": "Skills",
+    "pageId": "Projects",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

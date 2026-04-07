@@ -1,0 +1,7 @@
+{
+	"title": "{{ ProjectTitle.text }}",
+	"overview": "{{ ProjectOverview.text }}",
+	"result": "{{ ProjectResult.text }}",
+	"skillIds": {{ SkillsDropdownForm.selectedOptionValues }},
+	"userId": {{ Number(appsmith.store.userId) }}
+}

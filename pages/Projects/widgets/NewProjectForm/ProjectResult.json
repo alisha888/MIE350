@@ -3,18 +3,15 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 21,
   "boxShadow": "none",
-  "defaultText": "{{ String(tblApps.selectedRow.companyName || \"\") }}",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -25,33 +22,33 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "jehbcxn7jp",
-  "label": "Company",
+  "key": "0spzjnv1yu",
+  "label": "Project Result\n",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "BOLD",
+  "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 28,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
+  "mobileBottomRow": 28,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 14,
-  "mobileTopRow": 1,
+  "mobileRightColumn": 13,
+  "mobileTopRow": 21,
   "needsErrorInfo": false,
-  "parentColumnSpace": 10.05419921875,
-  "parentId": "5yoqbb8lwv",
+  "parentColumnSpace": 10.04736328125,
+  "parentId": "w9se02nsb0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 15,
+  "rightColumn": 46,
   "showStepArrows": false,
-  "topRow": 9,
+  "topRow": 14,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "v9wgc3x9ak",
-  "widgetName": "inpCompany"
+  "widgetId": "udze2qxki4",
+  "widgetName": "ProjectResult"
 }

@@ -1,9 +1,9 @@
 {
-  "company": {{ newCompany.text }},
-  "role": {{ newRole.text }},
-  "dates": {{ newDates.text }},
-  "status": {{ newStatus.selectedOptionValue }},
-  "notes": {{ newNotes.text }},
-  "userId": {{ appsmith.store.userId }},
+  "companyId": {{ Number(newCompany.selectedOptionValue || 1) }},
+  "role": "{{ newRole.text || 'Intern' }}",
+  "applicationDate": "{{ newDates.formattedDate || '2026-04-07' }}",
+  "status": "{{ newStatus.selectedOptionValue || 'Applied' }}",
+  "notes": "{{ newNotes.text || '' }}",
+  "userId": {{ Number(appsmith.store.userId || 1) }},
   "projectIds": []
 }

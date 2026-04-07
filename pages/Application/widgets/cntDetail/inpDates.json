@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 16,
   "boxShadow": "none",
-  "defaultText": "{{tblApps.selectedRow.dates}}",
+  "defaultText": "{{ String(tblApps.selectedRow.applicationDate || tblApps.selectedRow.application_date || \"\") }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69b2ed8c4534966f8c772077_9f778abb-70bd-432f-9cb8-933c9e136baf",
-  "id": "Profile_read_users",
+  "gitSyncId": "69b2ed8c4534966f8c772077_5b630751-e4c6-473a-a937-65ebc2af6fb0",
+  "id": "Profile_GetAllUsers",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -33,7 +33,7 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "read_users",
+    "name": "GetAllUsers",
     "pageId": "Profile",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

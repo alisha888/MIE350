@@ -28,7 +28,7 @@
   "icon": "laptop",
   "pages": [
     {
-      "id": "Home",
+      "id": "Dashboard",
       "isDefault": true
     },
     {
